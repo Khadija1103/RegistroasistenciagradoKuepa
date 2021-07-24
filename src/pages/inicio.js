@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
 import Nav from "../components/nav/nav";
-import Cajainicio from "../components/cajainicio/sectioninicio";
+import Cajainicio from "../components/cajainicio/cajainicio";
 import Footer from "../components/footer/footer";
 
 

@@ -22,7 +22,8 @@ function App() {
           <Route path="/inicio">
             <Inicio/>
           </Route>
-
+          </Switch>
+        </Router>
     </div>
 
   );
