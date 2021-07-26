@@ -8,13 +8,22 @@ import {BrowserRouter as Router,Switch,Route,Link, NavLink, Redirect} from "reac
 function Nav() {
   return (
   
-   <div className="cajanav">
- <h1>CAJA nav</h1>
-  </div>
+    
+    <nav className="menu">
+    <ul>
   
-  );
-}
-
+        <li><NavLink to="/home" activeClassName="active" ><i className="fa fa-home"/></NavLink></li>
+        
+  
+     
+     
+  </ul>
+  
+  </nav>
+    );
+  }
+  
+ 
 
 export default Nav;
 

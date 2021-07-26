@@ -1,6 +1,7 @@
 
 import Index from "./pages/index";
 import Inicio from "./pages/inicio";
+import Estadistica from "./pages/estadistica";
 import React from "react";
 import {BrowserRouter as Router,Switch,Route,Link, Navlink, Redirect} from "react-router-dom";
 
@@ -22,6 +23,12 @@ function App() {
           <Route path="/inicio">
             <Inicio/>
           </Route>
+
+
+          <Route path="/estadistica">
+            <Estadistica/>
+          </Route>
+
           </Switch>
         </Router>
     </div>

@@ -1,5 +1,5 @@
 
-
+import logo from "../../assets/images/logo.png";
 
 import './header.css';
 
@@ -8,9 +8,9 @@ function Header() {
   return (
 
    
-    <div className="cajaheader">
- <h1>CAJA header</h1>
-  </div>
+    <div className="logo">
+    <img className="img-fluid" src={logo} />   
+    </div>
  
   );
 }
