@@ -3,11 +3,13 @@ import Index from "./pages/index";
 import Inicio from "./pages/inicio";
 import React from "react";
 import {BrowserRouter as Router,Switch,Route,Link, Navlink, Redirect} from "react-router-dom";
+import Footer from "./components/footer/footer";
+/*import Form from "./pages/Form"*/
 
 function App() {
   return (
 
-         <div id="container-fluid overflow-hidden">
+         <div className="App">
     <Router>
         
          <Switch>
@@ -22,10 +24,12 @@ function App() {
           <Route path="/inicio">
             <Inicio/>
           </Route>
+      </Switch>
+      <Footer/>
+      </Router>
 
     </div>
 
   );
 }
-
-export default App;
+export default App

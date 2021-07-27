@@ -8,6 +8,7 @@ import Footer from "../components/footer/footer";
 
 
 
+
 function Inicio () {
   return (
     <div>

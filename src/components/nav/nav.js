@@ -7,7 +7,9 @@ import {BrowserRouter as Router,Switch,Route,Link, NavLink, Redirect} from "reac
 
 function Nav() {
   return (
-  
+    <div className="Container_Nav">
+      
+    </div>
   
   
   );

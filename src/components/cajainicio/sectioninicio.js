@@ -1,15 +1,18 @@
 
-import Cajainicio from "../../components/cajainicio/cajainici";
+import Cajainicio from "../../components/cajainicio/cajainicio";
 
 
 
-function Sectioninicio() {
+function SectionInicio() {
   return (
-  
+
+    <div className="Container_Sectioninicio">
+      
+    </div>
  
 
   
   );
 }
 
-export default Sectioninicio;
+export default SectionInicio;

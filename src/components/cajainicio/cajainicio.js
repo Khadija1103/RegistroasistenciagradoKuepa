@@ -5,7 +5,9 @@ import './cajainicio.css';
 
 function Cajainicio(props) {
   return (
-
+    <div className="Container_Caja">
+      
+    </div>
     
  
  
