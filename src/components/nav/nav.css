@@ -8,12 +8,15 @@
  
  nav {
 	clear: both;
-	width: 100%;
+	width: 80%;
 	max-height: 8%;
 	background-color: #FFFFFF;
 	color: #000000;
 	font-size: 1.2em;
 	font-weight: bolder;
+	width: 80%;
+	margin: auto;
+	text-align: center;
  }
  
  

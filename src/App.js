@@ -3,7 +3,7 @@ import Index from "./pages/index";
 import Inicio from "./pages/inicio";
 import Estadistica from "./pages/estadistica";
 import React from "react";
-import {BrowserRouter as Router,Switch,Route,Link, Navlink, Redirect} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
 
 function App() {
   return (
