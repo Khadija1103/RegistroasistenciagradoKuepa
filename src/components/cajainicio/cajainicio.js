@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 
 import './cajainicio.css';
 
-function Cajainicio(props) {
+function Cajainicio() {
   return (
-    <div className="Container_Caja">
-      
-    </div>
-    
+
+     
+  <div className="cajainicio">
+ <h1>CAJA Inicio</h1>
+  </div>
  
  
 

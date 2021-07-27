@@ -5,10 +5,10 @@ import './footer.css';
 
 function Footer() {
   return (
-    <div className="Container_Footer">
-      
-    </div>
-
+  
+ <div className="cajafooter">
+ <h1>CAJA footer</h1>
+  </div>
 
   );
 }

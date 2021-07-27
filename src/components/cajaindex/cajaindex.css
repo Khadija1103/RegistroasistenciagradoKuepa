@@ -1,11 +1,97 @@
 .cajaindex{
-width: 100%;
+   background-image: url(../../assets/images/marcos.jpg);
+   background-size: cover;
+   width: 100%;
    min-height: 50rem;
    height: 100%;
-   background-color: #FFFFFF;
    margin: auto;
    text-align: center;
    
+}
+
+button {
+   float: right;
+   max-width: 1200px;
+   width: 100%;
+   max-height: 500px;
+   height: 100%;
+   text-align: center;
+  
+   font-weight: bolder;
+   margin-left: 120px;
+}
+
+#botones{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+	padding-bottom: 90px;
+   width: 1200px;
+   height: 800px;
+}
+
+.boton1 {
+   margin-top: 20px;
+   margin-right: 20px;
+   background-color: #ECE9CB;
+   border: 1px solid #DD5D26;
+   box-shadow: 1px 1px 4px black;
+   font-size: 3em;
+}
+.boton1 a {
+   color: #000000;
+   text-decoration: none;
+}
+.boton1:hover{
+   color: #FFFFFF;
+   background-color: #EF7F3F;
+   text-decoration: none;
+   border-radius: 5px;
+   width: 1200px;
+   height: 800px;
+   border: 1px solid black;
+}
+
+.boton2 {
+   margin-top: 20px;
+   margin-right: 20px;
+   background: #EF7F3F;
+   color: #FFFFFF;
+   border: 1px solid black;
+   box-shadow: 1px 1px 4px black;
+   font-size: 3em;
+}
+.boton2 a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.boton2:hover {
+   color: #000000;
+   background-color: #ECE9CB;
+   text-decoration: none;
+   border-radius: 5px;
+   width: 1200px;
+   height: 800px;
+   border: 1px solid #DD5D26;
+}
+
+.Birrete{
+	width: 130px;
+	padding: 0;
+}
+.Birrete img{
+   max-width: 130px;
+   width: 100%;
+}
+
+.logo1{
+	width: 830px;
+	padding: 0;
+   margin-top: 300px;
+}
+.logo1 img{
+   max-width: 830px;
+   width: 100%;
 }
 
 

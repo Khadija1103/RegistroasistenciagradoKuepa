@@ -17,26 +17,28 @@ function Invitado () {
 
                     <form action="">
                        <p>
-                       <input type="text" name="nya" id="nombre" value="" placeholder="Nombre" />
+                           <input type="text" name="nya" id="nombre" value="" placeholder="Nombre" />
                        </p>
                        <p>
-                       <input type="text" name="nya" id="apellido" placeholder="Apellido"/>
+                           <input type="text" name="nya" id="apellido" placeholder="Apellido"/>
                        </p>
                        <p>
-                       <input type="number" name="nya" id="tel" placeholder="Teléfono"/>
+                           <input type="number" name="nya" id="tel" placeholder="Teléfono"/>
                        </p>
                        <p>
-                       <input type="text" name="nya" id="entidad" placeholder="Entidad"/>
+                           <input type="text" name="nya" id="entidad" placeholder="Entidad"/>
                        </p>
 
                        <p>
                            Ha tenido síntomas de COVID-19 o contacto on alguna persona enferma en las últimas 48 horas:
 
                        </p>
+
                        <p>
-                       <input type="radius" calue="certify" id="yes" placeholder="Si"/>
-                       <input type="radius" calue="certify" id="no" placeholder="No"/>
+                           Si <input type="radio" value="certify" id="yes" checked/> 
+                           No <input type="radio" value="certify" id="no" checked/> 
                        </p>
+                      
                        <p>
                            <input type="submit" value="Enviar" />
                            <input type="reset" value="Borrar" />

@@ -7,14 +7,23 @@ import {BrowserRouter as Router,Switch,Route,Link, NavLink, Redirect} from "reac
 
 function Nav() {
   return (
-    <div className="Container_Nav">
-      
-    </div>
   
+    
+    <nav className="menu">
+    <ul>
   
-  );
-}
-
+        <li><NavLink to="/home" activeClassName="active" ><i className="fa fa-home"/></NavLink></li>
+        
+  
+     
+     
+  </ul>
+  
+  </nav>
+    );
+  }
+  
+ 
 
 export default Nav;
 

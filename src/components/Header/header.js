@@ -1,17 +1,18 @@
 
-/*import logo from "../../assets/images/"*/
+import logo from "../../assets/images/logo.png";
 
 import './header.css';
 
 
 function Header() {
   return (
-    <div className="Container_Header"></div>
+    <div className="logo">
+    <img className="img-fluid" src={logo} />   
+    </div>
+ 
+  
   )
 
-   
-   
- 
   
 }
 
