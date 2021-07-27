@@ -5,13 +5,12 @@ import './footer.css';
 
 function Footer() {
   return (
-  
- <div className="cajafooter">
- <h1>CAJA footer</h1>
-  </div>
-
+<footer className="footindex">
+ &copy;Sitio desarrollado  Khadija T Marrugo y Aura/Todos los derechos reservados.
+</footer>
   );
 }
+
 
 
 export default Footer;

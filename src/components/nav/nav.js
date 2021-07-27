@@ -18,7 +18,7 @@ function Nav() {
       
 
 <li><NavLink to="/inicio" activeClassName="active" ><i className="fa fa-suitcase"/>registrarse</NavLink></li>
-
+<li><NavLink to="/invitado" activeClassName="active" ><i className="fa fa-suitcase"/>invitado</NavLink></li><li><NavLink to="/acompañante" activeClassName="active" ><i className="fa fa-suitcase"/>acompañante</NavLink></li><li><NavLink to="/administrativo" activeClassName="active" ><i className="fa fa-suitcase"/>administrativo</NavLink></li>
   
   <li><NavLink to="/estadistica" activeClassName="active"><i className="fa fa-envelope-o"/>Asistentes </NavLink></li>
 </ul>
