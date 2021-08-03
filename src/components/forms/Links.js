@@ -4,14 +4,14 @@ import db from '../firebase'
 
 
 const Links = () => {
-    const {links, setLinks} = useState([]) /*Definismos un arreglo vacío*/
+    const {links, setLinks} = useState([]) /*Definimos un arreglo vacío*/
 
     const  addOrEditLink = async (linkObject) => {
         await db.collection('links').doc().set(linkObject);/*Voy a crear un conjunto de datos llamados links*/
         console.log  ('new task added') 
         }
 
-        const getLinks = async () => {
+        const getLinks = async () => { /*IMPORTANTE*/ 
             db.collection("links").onSnapshot((querySnapsoht) => { /*Solicitamos una respuesta a Firebase*/
                 const docs = [];
            querySnapshot.forEach ((doc) => {

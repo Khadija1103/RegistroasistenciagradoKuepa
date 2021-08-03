@@ -2,10 +2,12 @@
 import Index from "./pages/index";
 import Inicio from "./pages/inicio";
 import Estadistica from "./pages/estadistica";
+import Acompañante from "./pages/acompañante";
+import Administrativo from "./pages/administrativo";
+import Invitado from "./pages/invitado";
 import React from "react";
-import {BrowserRouter as Router,Switch,Route,Link, Navlink, Redirect} from "react-router-dom";
-import Footer from "./components/footer/footer";
-/*import Form from "./pages/Form"*/
+import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
+import Admin from "./components/forms/Admin/Admin";
 
 function App() {
   return (
@@ -26,16 +28,29 @@ function App() {
             <Inicio/>
           </Route>
       </Switch>
-      <Footer/>
-      </Router>
+      {/* {/*<Footer/> */}
+     
 
 
           <Route path="/estadistica">
             <Estadistica/>
           </Route>
 
-      
-       
+          <Route path="/Acompañante">
+            <Acompañante/>
+          </Route>
+
+          <Route path="/Administrativo">
+            <Admin/>
+          </Route>
+
+          <Route path="/Invitado">
+            <Invitado/>
+          </Route>
+
+          </Router>
+
+          
     </div>
 
   );

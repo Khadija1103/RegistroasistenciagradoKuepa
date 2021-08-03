@@ -1,16 +1,17 @@
-/*import firebase from 'firebase'
+import firebase from 'firebase/app'
 import 'firebase/firestore'
+
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAhmdn5tMWj6ktdSsHYDe2-KASIYa8khRI",
-    authDomain: "registro-asistencia-8609d.firebaseapp.com",
-    projectId: "registro-asistencia-8609d",
-    storageBucket: "registro-asistencia-8609d.appspot.com",
-    messagingSenderId: "1096416718158",
-    appId: "1:1096416718158:web:a8e2d68a9567b258c1c21f"
+  apiKey: "AIzaSyAG4WYia-uUUI8rxkRNxCrObvYVDKSmQcI",
+  authDomain: "proyecto-prueba-a7207.firebaseapp.com",
+  projectId: "proyecto-prueba-a7207",
+  storageBucket: "proyecto-prueba-a7207.appspot.com",
+  messagingSenderId: "1096866316714",
+  appId: "1:1096866316714:web:46edec968bf1686de6abd3"
   };
   // Initialize Firebase
   const fb = firebase.initializeApp(firebaseConfig);
 
-  export const db = fb.firestore();*/
+  export const db = fb.firestore();

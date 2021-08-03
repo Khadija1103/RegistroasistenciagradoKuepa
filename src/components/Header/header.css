@@ -6,14 +6,19 @@ header {
 	background-color: #FFFFFF;
    
  }
-
+ .cajaheader{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	
+ }
 
 .logo{
-	width: 1400px;
+	width: 1015px;
 	padding: 0;
 }
 .logo img{
-   max-width: 1400px;
+   max-width: 1015px;
    width: 100%;
 }
  
