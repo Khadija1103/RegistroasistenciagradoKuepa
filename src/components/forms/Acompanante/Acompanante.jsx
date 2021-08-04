@@ -6,7 +6,7 @@ const Acompanante = (props) => { /*Traer de link*/
 
     const initialSateValues = { /*Guardar todo en una constante con valores iniciales*/
         nombre:'',
-        entidad:'',
+        parentesco:'',
         tel: '',
         apellido: '',
         edad:'',
@@ -70,11 +70,11 @@ const Acompanante = (props) => { /*Traer de link*/
         setValues({...initialSateValues})/*Guarda los datos y los devuelve al estado inicial a través del value en el input*/
     }
     return (
-        <div className="Container_Admin"> 
+        <div className="Container_Admin">
 
-                <div className="Box"> 
+                <div className="Box">
                     <h1>
-                        Invitado
+                        Acompañante
                     </h1>
 
                     <form action="" onSubmit={handleSubmit}>
@@ -85,8 +85,7 @@ const Acompanante = (props) => { /*Traer de link*/
                            <input type="text" name="apellido" id="apellido" onChange={handleInputChange} value={values.apellido} placeholder="Apellido"/>
                        </p>
                        <p>
-                           <input type="text" name="entidad" id="entidad"onChange={handleInputChange} value={values.cargo} placeholder="Entidad"/>
-                           
+                           <input type="text" name="parentesco" id="parentesco"onChange={handleInputChange} value={values.cargo} placeholder="Parentesco"/>
                        </p>
                        <p>
                            <input type="number" name="tel" id="tel" onChange={handleInputChange} value={values.tel} placeholder="Teléfono"/>
@@ -113,8 +112,8 @@ const Acompanante = (props) => { /*Traer de link*/
 
                        </p>
                        <p>
-                           Si <input type="radio" name="certify1" id="yes" onChange={handleChange} checked={checked.certify1} /> 
-                           No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} /> 
+                           Si <input type="radio" name="certify1" id="yes" onChange={handleChange} checked={checked.certify1} />
+                           No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} />
                        </p>
                        <p>
                            <input type="submit" id="enviar" value="Enviar" />
