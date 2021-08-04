@@ -1,7 +1,7 @@
 import React from 'react';
 import Chica from "../../Utils/Img/Formularios/grado.png";
 import Ilustracion1 from "../../Utils/Img/ilustraciones/home.svg";
-import ReactDOM from 'react-dom';
+/*import ReactDOM from 'react-dom';*/
 import {Link} from 'react-router-dom'
 
 
@@ -33,7 +33,7 @@ function Cajaindex() {
         <div className="Botones">
                       <Link exact to="/">
                           <button> Regístrate</button>
-                       </Link> 
+                       </Link>
                  </div>
         </p>
 
@@ -42,13 +42,7 @@ function Cajaindex() {
         </p>
 
       </div>
-    
-
      </div>
-   
-   
- 
- 
   );
 }
 
