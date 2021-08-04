@@ -8,13 +8,14 @@ import Invitado from "./pages/invitado";
 import React from "react";
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
 import Admin from "./components/forms/Admin/Admin";
+import GlobalStyle from './GlobalStyles.js'
 
 function App() {
   return (
 
          <div className="App">
     <Router>
-        
+    <GlobalStyle/> 
          <Switch>
            <Route exact path="/" render={() => (<Redirect to="/home"/>)}>
           </Route>

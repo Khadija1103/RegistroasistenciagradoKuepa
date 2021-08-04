@@ -2,7 +2,6 @@ import React, {useState} from "react" /*import react y crear el estado de la apl
 import '../css/Admin.css'/*Import the styles*/
 import { db } from "../../../firebase"
 
-
 const Admin = (props) => { /*Traer de link*/
 
     const initialSateValues = { /*Guardar todo en una constante con valores iniciales*/
@@ -75,7 +74,7 @@ const Admin = (props) => { /*Traer de link*/
 
                 <div className="Box"> 
                     <h1>
-                        ADMINISTRATIVO
+                        Administrativo
                     </h1>
 
                     <form action="" onSubmit={handleSubmit}>
@@ -109,18 +108,17 @@ const Admin = (props) => { /*Traer de link*/
                        </p>
                         
 
-                       <p>
+                       <p id="text">
                            ¿Has tenido síntomas de COVID-19 en las últimas 48 horas o has tenido contacto con una persona contagiada?
 
                        </p>
                        <p>
-                      {/* setValues({...values, certify1: true, certify2: false}) */}
                            Si <input type="radio" name="certify1" id="yes" onChange={handleChange} checked={checked.certify1} /> 
                            No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} /> 
                        </p>
                        <p>
-                           <input type="submit" value="Enviar" />
-                           <input type="reset" value="Borrar" />
+                           <input type="submit" id="enviar" value="Enviar" />
+                           <input type="reset" id="borrar" value="Borrar" />
                        </p>
 
                        </form>
@@ -129,6 +127,7 @@ const Admin = (props) => { /*Traer de link*/
                        
 
                 </div>
+                
         </div>
 
     )
