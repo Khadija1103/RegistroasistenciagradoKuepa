@@ -4,7 +4,7 @@ import SecundaryFont from '../src/Utils/Fonts/Light.woff'
 export const GlobalStyle = createGlobalStyle` 
 
 
-p,  input, select{
+p,  input, select, button{
     font-family: Delgada;
 }
 h1{

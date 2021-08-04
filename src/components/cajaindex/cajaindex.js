@@ -1,7 +1,8 @@
 import React from 'react';
-import Birrete from "../../assets/images/BIRRETE.png";
-import Logo1 from "../../assets/images/logo1.png";
+import Chica from "../../Utils/Img/Formularios/grado.png";
+import Ilustracion1 from "../../Utils/Img/ilustraciones/home.svg";
 import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom'
 
 
 import './cajaindex.css';
@@ -11,18 +12,37 @@ function Cajaindex() {
   return (
 
     <div className="cajaindex">
-    <img className="logo1" src={Logo1} />
+      <div className="Container_img">
+        <img id="img1" src={Chica} alt="Esta es la img1" />
+      </div>
+      <div className="Contenido">
+        <p id="frase">
+        Las mujeres tienen la oportunidad de cumplir todos los sueños que se propongan, son ellas quienes construyen su futuro.
+        </p>
 
-  <div id="botones" >
+        <p id="frase"><h1 id="Tittle">
+          Registro de Asitencia: Graduación Class TechPower
+        </h1>
+        </p>
 
-  <button className="boton2" type="submit" value="inicio" ><img className="Birrete" src={Birrete} /> <br></br>  Registrarse</button>
- 
+        <p id="frase">
+          ¡Conozcámonos!
+        </p>
 
- 
-  <button className="boton1" type="submit" value="estadistica" ><img className="Birrete" src={Birrete} />       
-  <br></br>Asistentes </button>
-   
-  </div>
+        <p id="frase">
+        <div className="Botones">
+                      <Link exact to="/">
+                          <button> Regístrate</button>
+                       </Link> 
+                 </div>
+        </p>
+
+        <p id="frase">
+           <img id="img3" src={Ilustracion1} alt="Esta es la ilustración" />
+        </p>
+
+      </div>
+    
 
      </div>
    
