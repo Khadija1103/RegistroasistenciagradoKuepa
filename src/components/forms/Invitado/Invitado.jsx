@@ -1,7 +1,7 @@
 import React from 'react' /*Import React*/ 
-import '../css/invitado.css'/*Import the styles*/
-import Birrete from '../../../assets/images/birrete.png' 
-import Diploma from '../../../assets/diploma.png'
+import '../css/Invitado.css'/*Import the styles*/
+/*import Birrete from '../../../assets/images/birrete.png' 
+import Diploma from '../../../assets/diploma.png'*/
 
 
 function Invitado () {
@@ -9,8 +9,7 @@ function Invitado () {
         <div className="Container_Invitado"> 
 
                 <div className="Box"> 
-                    <img id="img2" src={Birrete} alt="Esta es la img2" />
-                    <img id="img3" src={Diploma} alt="Esta es la img" />
+                    
                     <h1>
                         INVITADO
                     </h1>
