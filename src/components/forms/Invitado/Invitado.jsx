@@ -71,7 +71,7 @@ const Invitado = (props) => { /*Traer de link*/
         setValues({...initialSateValues})/*Guarda los datos y los devuelve al estado inicial a través del value en el input*/
     }
     return (
-        <div className="Container_Invitado"> 
+        <div className="Container_Admin"> 
 
                 <div className="Box3"> 
                     <h1>

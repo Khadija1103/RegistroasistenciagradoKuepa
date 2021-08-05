@@ -5,7 +5,6 @@ import { db } from "../../../firebase"
 const Acompanante = (props) => { /*Traer de link*/
 
     const initialSateValues = { /*Guardar todo en una constante con valores iniciales*/
-        nombre_estudiante:'',
         nombre:'',
         parentesco:'',
         tel: '',
